@@ -21,7 +21,9 @@ Para poder crear los contenedores se optó por hacer un ```Dockerfile```, para c
 ### ¿Cómo realizar la migración del servidor mediante Ansible? 
 En la actividad se plantearon 2 servicios los cuales se tenían que migrar que son ```web_server``` y ```mysql_server```
 El reto en estos 2 servicios era buscar dentro de los ```Modulos de Ansible``` el equivalente de ```Redhat/CentOS``` a ```Ubuntu server``` en cada uno de los casos.
+
 Por ejemplo los Modulos ```yum``` de Redhat/CentOS que su equivalente es el ```apt``` en Ubuntu server.
+
 
 -------------------------------------------
 
