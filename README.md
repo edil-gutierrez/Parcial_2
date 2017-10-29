@@ -10,7 +10,8 @@ Para realizar las prácticas debes tener instalado en el equipo o servidor de pr
 ### Construcción de la imagen personalizada
 Ingresa a la carpeta 'Dockerfile' y sigue los pasos indicados.
 
-### Documentacion de lo que se hizo en la migracion
+Documentacion 
+-------------------------------------------
 En acuerdo a como se solicitó en la actividad de migrar los servidores de Redhat/CentOS a Ubuntu server, se plantearon las siguientes dudas.
 ### ¿Cómo crear los contenedores de Docker? 
 Para poder crear los contenedores se optó por hacer un Dockerfile, para crear la imagen que es la que nos permitirá hacer los contenedores y un archivo de autorización.
