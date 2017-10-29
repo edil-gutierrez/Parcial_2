@@ -54,7 +54,10 @@ chmod 0600 ../key.private
 ```
 
 ```
-ssh -o StrictHostKeyChecking=no root@web_server -p 2221 -i ../key.private hostname ssh -o StrictHostKeyChecking=no root@mysql_server -p 2222 -i ../key.private hostname
+ssh -o StrictHostKeyChecking=no root@web_server -p 2221 -i ../key.private hostname 
+```
+```
+ssh -o StrictHostKeyChecking=no root@mysql_server -p 2222 -i ../key.private hostname
 ```
 
 Quinto paso, confirmación
