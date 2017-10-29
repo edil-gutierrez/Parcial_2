@@ -8,7 +8,7 @@ Para realizar las prácticas debes tener instalado en el equipo o servidor de pr
         pip install ansible
 
 ### Construcción de la imagen personalizada
-Ingresa a la carpeta 'Dockerfile' y sigue los pasos indicados.
+Ingresa a la carpeta ```'Dockerfile'``` y sigue los pasos indicados.
 
 Documentacion 
 -------------------------------------------
@@ -16,8 +16,8 @@ En acuerdo a como se solicitó en la actividad de migrar los servidores de Redha
 ### ¿Cómo crear los contenedores de Docker? 
 Para poder crear los contenedores se optó por hacer un Dockerfile, para crear la imagen que es la que nos permitirá hacer los contenedores y un archivo de autorización.
 ### ¿Cómo realizar la migración del servidor mediante Ansible? 
-En actividad están los 2 servicios los cuales se tenían que migrar que son web_server y mysql_server.
-El reto en estos 2 servicios era buscar dentro de los Modulos de Ansible el equivalente de Redhat/CentOS a Ubuntu server en cada uno de los casos por ejemplo los Modulos yum de Redhat/CentOS que su equivalente es el apt en Ubuntu server
+En actividad están los 2 servicios los cuales se tenían que migrar que son ```web_server``` y ```mysql_server```
+El reto en estos 2 servicios era buscar dentro de los ```Modulos de Ansible``` el equivalente de Redhat/CentOS a Ubuntu server en cada uno de los casos por ejemplo los Modulos ```yum``` de Redhat/CentOS que su equivalente es el ```apt``` en Ubuntu server
 
 
 Estos playbooks requieren Ansible 1.2.
