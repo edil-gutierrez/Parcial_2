@@ -48,3 +48,4 @@ Aquí el servidor web sería configurado en el host local y el dbserver en un se
 Una vez hecho esto, puede comprobar los resultados consultando http://localhost/index.php.
 Debería ver una página de prueba simple y una lista de bases de datos
 servidor de base de datos.
+
